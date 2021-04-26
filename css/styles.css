@@ -1,0 +1,33 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: papayawhip;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    margin: 15px 0;
+    background-color: skyblue;
+    border: sienna solid 2.5px ;
+    border-radius: 12px;
+}
+
+.search-bar {
+    padding-top: 25px;
+
+}
+/* Grid Layout */
+.gallery {
+    max-width: 1000px;
+    background-color: papayawhip;
+    margin: 25px auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    gap: 10px;
+}
