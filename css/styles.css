@@ -9,7 +9,7 @@ body {
 }
 
 input {
-    width: 500px;
+    width: 50%;
     height: 40px;
     margin: 15px 0;
     background-color: skyblue;
