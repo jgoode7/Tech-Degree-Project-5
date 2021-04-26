@@ -17,17 +17,19 @@ input {
     border-radius: 12px;
 }
 
-.search-bar {
-    padding-top: 25px;
-
+#search-bar {
+    margin: 25px auto;
 }
+
 /* Grid Layout */
 .gallery {
     max-width: 1000px;
     background-color: papayawhip;
+    justify-content: center;
     margin: 25px auto;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-    gap: 10px;
+    grid-column-gap: 25px;
+    grid-row-gap: 21px;
 }
